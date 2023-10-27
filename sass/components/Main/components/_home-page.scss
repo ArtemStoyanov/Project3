@@ -1,0 +1,45 @@
+.home-page {
+    margin: 0 auto;
+    padding: 70px 100px;
+    background: linear-gradient(to right, rgba(10, 10, 10, 0.4) 0%, rgba(10, 10, 10, 0.4) 100%),
+            url(../../../../assets/images/Rectangles.jpg) center/cover no-repeat,
+            lightgray 50%;
+}
+.home-page-box {
+    background-image: url(../../../../assets/icons/art-line.svg);
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 80px 50px 130px 50px;
+
+}
+
+.home-page-text {
+    height: 291px;
+    p {
+        @include h1;
+        padding-right: 50%;
+    }
+}
+.home-page-text-small {
+    span {
+        @include h7;
+    }
+}
+
+.container-two {
+    display: inline-flex;
+    width: 802px;
+height: 502px;
+flex-shrink: 0;
+}
+
+.history {
+    width: 300px;
+height: 285px;
+flex-shrink: 0;
+text-align: start;
+}

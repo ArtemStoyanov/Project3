@@ -1,0 +1,162 @@
+.home-page-fore {
+    background-color: var(--bg-color-2);
+}
+
+.fore {
+    margin: 0 auto;
+    background-color:#F2F2F2;
+    width: 800px;
+height: 500px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.title {
+    color: #B10000;
+    font-family: "Montserrat";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 28.8px */
+}
+
+.all-forms {
+    width: 760px;
+height: 410px;
+flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 25px 30px 50px 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.forms {
+    
+}
+
+.you-text {
+    width: 320px;
+    height: 20px;
+    flex-shrink: 0;
+    span {
+        color: #0a0a0a;
+        font-family: "Montserrat";
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 19.6px */
+    }
+}
+
+.name {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    padding-bottom: 16px;
+}
+.email {
+    margin-top: 24px;
+}
+.mess {
+    input {
+        width: 96%;
+    }
+}
+.robot {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    button {
+        display: flex;
+        width: 38%;
+        height: 56px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        @include h6;
+        background-color: #B10000;
+        border-radius: 4px;
+        margin-top: 20px;
+        }
+
+}
+.reCAPTCHA {
+    width: 222px;
+    height: 51px;
+    flex-shrink: 0;
+    background-image: url(../../../../assets/images/reCAPTCHA.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.text-forms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+height: 335px;
+flex-shrink: 0;
+}
+.connect {
+    span {
+        color: #0a0a0a;
+        font-family: "Montserrat";
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 19.6px */
+    }
+}
+.locate {
+}
+.hotline {
+}
+.icone-mess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+input {
+    width: 45%;
+height: 72px;
+flex-shrink: 0;
+border: none;
+background-color: #F2F2F2;
+
+}
+
+.form {
+    display: flex;
+    gap: 18px;
+    p {
+        color: #0a0a0a;
+        font-family: "Montserrat";
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 19.6px */
+    }
+}
+
+.locate,
+.hotline,
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+// .Message-in {
+//     width: 100%;
+//     height: 72px;
+//     flex-shrink: 0;
+    
+// }

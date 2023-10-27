@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  box-sizing: border-box;
+  color: var(--font-color);
+  padding: 0 20px;
+  background-color: rgba(10, 10, 10, 1);
+}
+
+body {
+  height: 6000px;
+}
+
+
+li {
+  list-style: none;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  background-color: inherit;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+a,
+input {
+  text-decoration: none; /* Убирает подчеркивание по умолчанию */
+  color: inherit; /* Устанавливает цвет текста на наследованный цвет */
+  cursor: pointer;
+}
+
+#root {
+  // display: flex;
+}
+
+header {
+  float: left;
+}
+footer {
+  margin-left: 150px;
+}
+
+@mixin h1 {
+  font-family: "Montserrat";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 70px; /* 97.222% */
+  
+}
+
+@mixin h2 {
+font-family: "Montserrat";
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: 70px; /* 194.444% */
+}
+
+@mixin h5 {
+  font-family: "Montserrat";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 170%; /* 30.6px */
+}
+
+@mixin h6 {
+  /* H6 Reg 14 */
+font-family: "Montserrat";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+}
+
+@mixin h6-gold {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  background: var(--Gold, linear-gradient(90deg, #FFEDC2 0%, #F7EFA6 17.67%, #F3D16E 37.63%, #EEC65E 46.57%, #E4B650 56.76%, #AF7121 62.37%, #AF7121 65.28%, #F2D76C 71.52%, #F8E77D 79.21%, #F7F1A4 84.41%, #FFF2C5 89.19%, #E6AD06 93.75%, #E6AD06 94.38%, #FBCB4A 99.99%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin h7 {
+  /* H7 Med 12 */
+font-family: "Montserrat";
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 16.8px */
+}
+
+@mixin h9 {
+  font-family: "Montserrat";
+font-size: 8px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 9.6px */
+}
+
+.none {
+  display: none;
+}
+
+.container {
+  width: 802px;
+}
+
+main {
+  margin: 0 auto;
+  padding-left: 150px;
+}
