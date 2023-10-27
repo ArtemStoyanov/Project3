@@ -2,11 +2,11 @@
     margin: 0 auto;
     padding: 70px 100px;
     background: linear-gradient(to right, rgba(10, 10, 10, 0.4) 0%, rgba(10, 10, 10, 0.4) 100%),
-            url(../../../../assets/images/Rectangles.jpg) center/cover no-repeat,
+            url(../assets/images/Rectangles.jpg) center/cover no-repeat,
             lightgray 50%;
 }
 .home-page-box {
-    background-image: url(../../../../assets/icons/art-line.svg);
+    background-image: url(../assets/icons/art-line.svg);
     background-repeat: no-repeat;
     
     display: flex;
